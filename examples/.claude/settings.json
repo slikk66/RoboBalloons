@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"UserPromptSubmit\",\"additionalContext\":\"PRIME DIRECTIVE PROTOCOL: Say 99BALLOONS + list 1-5 directives that genuinely apply to this prompt (no padding — only list what truly applies). If this is your first prompt or you encounter a new platform/tool, also say INDEXCHECK after reading .claude/rules/INDEX.md, then the keyword from the matching rules file. If you do not know the directives, run /robocop.\"}}'"
+          }
+        ]
+      }
+    ]
+  }
+}
